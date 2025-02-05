@@ -1,0 +1,5 @@
+whisper
+gradio
+fuzzywuzzy
+gtts
+ffmpeg
