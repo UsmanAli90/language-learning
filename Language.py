@@ -4,7 +4,7 @@ from fuzzywuzzy import fuzz
 import gradio as gr
 import os
 
-model = whisper.load_model("base")
+model = whisper.load_model("tiny")
 
 def generate_native_audio(phrase, language="en"):
     """Generate a native speaker audio for a given phrase."""
