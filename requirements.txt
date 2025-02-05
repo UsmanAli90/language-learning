@@ -1,5 +1,5 @@
-whisper
-gradio
+git+https://github.com/openai/whisper.git
+gTTS
 fuzzywuzzy
-gtts
-ffmpeg
+gradio
+python-Levenshtein
