@@ -36,7 +36,7 @@ def language_learning_app(phrase, language="en"):
     native_audio = generate_native_audio(phrase, language)
 
     with gr.Blocks() as app:
-        gr.Markdown("# Voice-Driven Language Learning App 🌍🎙️")
+        gr.Markdown("# Voice-Driven Language Learning App")
         gr.Markdown(
             "Practice speaking phrases in a foreign language and get instant feedback on your pronunciation."
         )
